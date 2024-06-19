@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: darkgrey;
+}
+
+.wrapper {
+  background-color: white;
+  width: 605px;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+.head {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container .quotearea {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quotearea i:first-child {
+  margin: 3px 10px 0 0;
+}
+
+.quotearea i:last-child {
+  margin: 3px 10px 0 0;
+}
+
+/* .buttons {
+  border-radius: 10px;
+  background-color: black;
+  color: aqua;
+}
+
+.wrapper .button {
+  border-top: 1px solid #ccc;
+}
+
+.button .features {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.features .ul {
+  display: flex;
+}
+.features ul li {
+  list-style: none;
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  display: flex;
+  color: #5372f0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #5372f0;
+}
+.copy {
+  text-align: center;
+} */
+
+.buttons {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+
+  .buttons:hover {
+    background-color: #0056b3;
+    transition-delay: 0s;
+  }
+  #volume-up,
+  #volume-down {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+
+  #volume-up:hover,
+  #volume-down:hover {
+    background-color: #0056b3;
+  }
+}
